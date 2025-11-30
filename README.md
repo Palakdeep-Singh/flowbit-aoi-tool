@@ -16,6 +16,7 @@ This project is a pixel-perfect implementation of the Flowbit Area of Interest C
 📷 UI Preview
 
 <img width="1901" height="909" alt="image" src="https://github.com/user-attachments/assets/2cef5980-5265-4317-b41b-71ba8f797af2" />
+
 ```
 src/
 ├── components/
