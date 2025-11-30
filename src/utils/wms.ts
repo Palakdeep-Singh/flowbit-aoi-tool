@@ -1,0 +1,1 @@
+export const WMS_URL = 'https://www.wms.nrw.de/geobasis/wms_nw_dop';

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --primary: #D48C4C;
+  --panel-bg: #FFFFFF;
+  --header-bg: #F5EEE0;
+  --icon-bg: #E3CDA0;
+  --beige-btn: #F4E8D6;
+  --text-primary: #2E2E2E;
+  --text-secondary: #7B7B7B;
+  --search-border: #C1B7A0;
+}
+
+html,body,#root { height:100%; font-family: 'Manrope', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.map-root { height: calc(100vh - 64px); }
+.rounded-card { border-radius: 12px; }
+.shadow-soft { box-shadow: 0 6px 18px rgba(15,23,42,0.06); }
+.tool-btn { width:48px; height:48px; border-radius:12px; background:white; display:flex; align-items:center; justify-content:center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); cursor:pointer; transition: transform .08s ease, background .08s ease; }
+.tool-btn:hover { transform: translateY(-2px); background:#fffaf8; }

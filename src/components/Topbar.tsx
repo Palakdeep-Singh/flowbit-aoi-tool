@@ -1,0 +1,1 @@
+import React from 'react'; export default function Topbar(){ return (<header className='h-16 bg-white shadow flex items-center px-4'><h1 className='text-lg font-semibold'>Flowbit — AOI Creator</h1></header>); }
