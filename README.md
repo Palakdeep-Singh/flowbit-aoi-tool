@@ -1,4 +1,4 @@
-<img width="1901" height="909" alt="image" src="https://github.com/user-attachments/assets/f962f842-4b37-4bdd-8d63-484679a62f82" />📍 Flowbit AOI Tool
+📍 Flowbit AOI Tool
 Area of Interest Creation Tool — React + TypeScript + OpenLayers + Vite + Playwright
 <p align="center"> <img src="https://img.shields.io/badge/React-18.0-blue?logo=react" /> <img src="https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript" /> <img src="https://img.shields.io/badge/OpenLayers-7.4-green" /> <img src="https://img.shields.io/badge/TailwindCSS-3.0-38BDF8?logo=tailwindcss" /> <img src="https://img.shields.io/badge/Vite-4.0-646CFF?logo=vite" /> <img src="https://img.shields.io/badge/Playwright-Testing-2C9?logo=playwright" /> </p>
 📘 Overview
