@@ -1,4 +1,4 @@
-📍 Flowbit AOI Tool
+<img width="1901" height="909" alt="image" src="https://github.com/user-attachments/assets/f962f842-4b37-4bdd-8d63-484679a62f82" />📍 Flowbit AOI Tool
 Area of Interest Creation Tool — React + TypeScript + OpenLayers + Vite + Playwright
 <p align="center"> <img src="https://img.shields.io/badge/React-18.0-blue?logo=react" /> <img src="https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript" /> <img src="https://img.shields.io/badge/OpenLayers-7.4-green" /> <img src="https://img.shields.io/badge/TailwindCSS-3.0-38BDF8?logo=tailwindcss" /> <img src="https://img.shields.io/badge/Vite-4.0-646CFF?logo=vite" /> <img src="https://img.shields.io/badge/Playwright-Testing-2C9?logo=playwright" /> </p>
 📘 Overview
@@ -15,9 +15,8 @@ This project is a pixel-perfect implementation of the Flowbit Area of Interest C
 
 📷 UI Preview
 
-(Insert screenshot or GIF here)
-Example:
-
+<img width="1901" height="909" alt="image" src="https://github.com/user-attachments/assets/2cef5980-5265-4317-b41b-71ba8f797af2" />
+```
 src/
 ├── components/
 │   ├── AOIPanel.tsx
@@ -31,16 +30,17 @@ src/
 │   └── wms.ts
 └── pages/
     └── Home.tsx
+```
 
 🚀 Features
+
 🗺️ Map
 
 OSM + NRW WMS imagery
-
 Smooth zoom & pan
-
 Flash marker on search result
 
+```
 ✏️ AOI Editing Tools
 Tool	Description
 🟧 Draw Polygon	Click to add vertices; double-click to finish
@@ -51,7 +51,10 @@ Tool	Description
 🗑 Delete AOI	Remove selected polygons
 🔍 Search	Pan to city / address via Nominatim
 💾 Save	Auto-saves to LocalStorage
+```
+
 🧱 Architecture
+```
 React (UI)
 │
 └── Zustand (global state)
@@ -61,6 +64,7 @@ React (UI)
          ├── Draw / Modify / Select / Snap interactions
          ├── Turf.js geometry operations
          └── WMS + OSM layers
+```
 
 💡 Why this architecture?
 
@@ -72,24 +76,25 @@ Zustand stores only metadata, not geometry
 
 Turf isolates expensive boolean operations
 
+
 🛠️ Installation & Setup
+```
 1. Install dependencies
 npm install
 
 2. Start development server
 npm run dev
-
+```
 
 Your app runs at:
-
+```
 👉 http://localhost:5173
-
+```
 🔍 Search Functionality
 
 Search bar uses:
 
 https://nominatim.openstreetmap.org/search
-
 
 Returns:
 
@@ -125,26 +130,29 @@ LocalStorage caching avoids re-fetching data
 Features do not enter React state (memory efficient)
 
 🧪 Playwright Testing
+
 Install browsers:
+```
 npx playwright install
-
+```
 Run tests:
+```
 npx playwright test
-
+```
 Included tests:
-
+```
 map-load.spec.ts — ensures map initializes
 
 draw-polygon.spec.ts — simulates AOI creation
-
+```
 Example test:
-
+```
 test("map loads correctly", async ({ page }) => {
   await page.goto("http://localhost:5173");
   await expect(page.locator("#map")).toBeVisible();
   await expect(page.locator("canvas").first()).toBeVisible();
 });
-
+```
 
 ⚖️ Tradeoffs
 
@@ -174,7 +182,9 @@ Improve mobile responsiveness
 Add authentication (Flowbit login)
 
 ⏱️ Time Spent (Honest Breakdown)
+
 Task	Time
+```
 Figma to React UI	3h
 Map setup & WMS	1.5h
 Drawing tools	3h
@@ -185,7 +195,7 @@ Playwright tests	1h
 Documentation	1h
 Polish & bugfixes	2h
 Total	14.5 hours
-
+```
 
 🙌 Thanks
 
